@@ -26,7 +26,7 @@
 
 header {
     background-color: black;
-    height: 55px;
+    height: 45px;
     color: white;
     width: 100%;
     list-style: none;
@@ -46,7 +46,7 @@ a {
     color: black;
 }
 
-a:hover {
+/*a:hover {
     font-weight: 800;
 }
 
@@ -55,9 +55,17 @@ img:hover {
     transition: transform .5s ease;
 }
 
+img.darker {
+  transition: all 0.2s ease-in-out;
+}
+
+img.darker:hover {
+  filter: brightness(50%);
+}
+
 .zoom {
     overflow: hidden;
-}
+}*/
 
   /******************************************
   /* NAVIGATION
@@ -71,8 +79,8 @@ nav *{
 }
 
 nav img {
-    height: 55px;
-    width: 97.77px;
+    height: 45px;
+    width: 79.99px;
     margin-left: 10px;
     
 }
@@ -93,7 +101,7 @@ nav ul {
 }
 input {
     width: 100%;
-    margin-top: 17px;
+    margin-top: 12px;
 }
 
 p a {
@@ -101,8 +109,8 @@ p a {
     margin-left: 20px;
     padding-left: 10px;
     border-left: solid white 1px;
-    height: 55px;
-    padding-top: 16px;
+    height: 45px;
+    padding-top: 12px;
 }
 
 p {
@@ -112,9 +120,9 @@ p {
 li {
     border-left: solid white 0.5px;
     border-right: solid white 0.5px;
-    height: 55px;
+    height: 45px;
     padding-left: 20px;
-    padding-top: 16px;
+    padding-top: 12px;
 }
 
 ul {
@@ -126,5 +134,116 @@ ul {
   /*******************************************/
 
 .welcomeText {
-    padding-top: 65px;
+    padding-top: 30px;
+    font-size: 30px;
+    color: #4c4c4c;
+    margin-bottom: 20px;
+    /*float: left;*/
+}
+
+/*.date {
+    float: right;
+    padding-top: 30px;
+    color: #8f8f8f;
+    font-size: 28px;
+    font-weight: 400;
+}*/
+/******************************************
+  /* MAIN ARTICLE
+  /*******************************************/
+.frontPage {
+    float: left;
+    width: 49%;
+    height: 500px;
+}
+
+.bigPicture {
+    width: 700px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+}
+
+.mainSectionHeader {
+    width: 750px;
+    bottom: 60px;
+    left: 16px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.mainSectionParagraph {
+    width: 750px;
+    bottom: 18px;
+    left: 16px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.mainSectionSpan {
+    width: 750px;
+    bottom: 16px;
+    left: 20px;
+}
+
+.frontPageContainer {
+    position: relative;
+}
+
+.redSpan {
+    font-weight: 200;
+    border-left: solid red 4px;
+    padding-left: 12px;
+}
+
+/******************************************
+  /* 4 RIGHTSIDE ARTICLES
+  /*******************************************/
+
+main section > section {
+    float: right;
+}
+
+main section + section {
+    float: left;
+    width: 33%;
+}
+
+.canadaUS {
+    position: relative;
+}
+
+.sectionPhoto {
+    width: 350px;
+}
+
+.sectionHeader {
+    width: 350px;
+    bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;  
+    right: 140px;
+
+}
+
+.pretendSection {
+    position: relative;
+}
+
+.numberOne {
+    right: 155px;
+}
+
+.blueSpan {
+    font-weight: 200;
+    border-left: solid blue 4px;
+    padding-left: 12px;    
+}
+
+.firstSpanSection {
+    bottom: 20px;
+    right: 400px;
+    margin-right: 20px;
 }
